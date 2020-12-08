@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+
+.container{
+    display: flex;
+    flex-direction: column; 
+
+} 
+.heading{
+    padding: 4px; 
+    text-align: center; 
+    margin: 5px;
+} 
+
+.heading h1{
+    color:  rgb(14, 0, 92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px
+}
+.navebar{ 
+    background-color: rgb(14, 0, 92);
+    display: flex; 
+    position: relative; 
+    height: 50px;
+    
+} 
+.navebar ul{ 
+    display: flex; 
+    list-style: none; 
+    justify-content: center;
+   
+} 
+.navebar ul li{
+    padding: 7px; 
+    
+} 
+.navebar ul li a{
+    padding: 15px 15px; 
+    text-decoration: none;
+    color: white;
+    justify-content: center; 
+    position: relative; 
+    top: 9px;
+ 
+}
+
+.navebar ul li a:hover{
+
+    background-color: rgb(248, 235, 48);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 14px;
+
+}
+.container2{
+        background-color: rgb(190, 183, 238); 
+    display: flex;
+    flex-direction: column;
+}
+.container2 .add h1{
+    padding-bottom: 2vh;
+    border-bottom: 2px solid rgb(5, 5, 102);
+    
+}
+.container2 p{
+
+    line-height: 4vh;
+    font-size: large;
+}
+.container2 .add {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+
+   
+}
+.container2 .meet{
+   
+    padding:3vw ;
+    
+}
+.container2 .meet h2{
+    padding-bottom: 2vh;
+    border-bottom: 2px solid rgb(5, 5, 102);
+   
+
+}
+.container2 h3{
+    padding-top: 2vh;
+    font-weight: bolder;
+  
+}
+.container2 .form{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+  
+
+}
+.container2 .form form{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+   line-height: 4vh;
+    width: 20%;
+    padding-top: 10px;
+    
+}
+.container2 .form h3
+{
+    padding-bottom: 3vh;
+    border-bottom: 2px solid rgb(5, 5, 143);
+    width: 25%;
+    font-size: x-large;
+    font-weight: bolder;
+   
+}
+input[type="submit"]{
+    width: 28%;
+}
+
+.container2 .form input{
+    border: 2px solid black;
+    background: none;
+}
+.container2 .form select{
+    width: 25%;
+}
+
+
+.down{
+    display: flex;
+    
+       margin-top: 60px;
+       color: white;
+       background-color: rgb(0, 7, 66);
+       align-items: center;
+       justify-content: space-evenly;
+       align-self: flex-start;
+       height: 20vh;
+       padding-bottom: 20px;
+   
+   
+   }
+   
+   .down .left{
+      
+       padding-left: 10px;
+       left: 10px;
+   }
+   
+   .down .left a{
+       color: white;
+       text-decoration: none;
+       text-align: center;
+   }
+   .center ul{
+       list-style: none;
+   }
+   .center ul li{
+       display: flex;
+       flex-direction: column;
+   
+   }
+   .center ul li a{
+       text-decoration: none;
+       color: white;
+       
+   }
+   .center ul li a:hover{
+       background-color: yellow;
+       color:black;
+       border-radius: 20px;
+       text-align: center;
+   }
+   .right :hover{
+   background-color: yellow;
+   color: black;
+   border-radius: 20px;
+   
